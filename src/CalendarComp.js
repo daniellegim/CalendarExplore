@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import { Calendar, momentLocalizer } from 'react-big-calendar'
 import 'react-big-calendar/lib/css/react-big-calendar.css'
+// import { Calendar } from '@fullcalendar/core'
+// import dayGridPlugin from '@fullcalendar/daygrid'
 // import "react-big-calendar/lib/addons/dragAndDrop/styles.css"
 // import withDragAndDrop from "react-big-calendar/lib/addons/dragAndDrop"
 import moment from 'moment'
@@ -13,7 +15,7 @@ function CalendarComp() {
         start: moment().toDate(),
         end: moment().toDate(),
         title: "Live shooting"
-      }]
+    }]
 
     return(
         <Calendar
